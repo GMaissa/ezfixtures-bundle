@@ -228,7 +228,6 @@ class FixturesService
         $useTransaction = true,
         $adminLogin = null
     ) {
-        echo "executeFixtureInner";
         if ($useTransaction) {
             $this->repository->beginTransaction();
         }
